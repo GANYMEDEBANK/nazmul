@@ -1,0 +1,243 @@
+{
+  "profile": {
+    "name": "Md Nazmul Islam",
+    "role": "Researcher in trustworthy and reliable AI",
+    "headline": "Building AI that is honest about what it knows",
+    "tagline": "Calibration, robustness and rigorous evaluation for deep learning, with applications in medical imaging.",
+    "bio": "I am a Computer Science and Engineering graduate of Rajshahi University of Engineering and Technology (RUET), Bangladesh. I study how far we can trust deep learning models. My work covers calibration and uncertainty, robustness to distribution shift, and careful evaluation. I apply these ideas to medical imaging, where a confident but wrong answer can cause real harm.",
+    "location": "Bangladesh",
+    "email": "nazmulpanto.ruet@gmail.com",
+    "phone": "+8801881081925",
+    "photo": "",
+    "cv": "",
+    "scholar": "https://scholar.google.com/citations?user=43F4oewAAAAJ&hl=en",
+    "github": "",
+    "linkedin": "",
+    "contact": "I am open to research collaborations and graduate study opportunities."
+  },
+  "focus": {
+    "statement": "A model that is accurate but overconfident is not ready for the real world.",
+    "body": "I work on trustworthy and reliable AI. I test whether models stay reliable when the data changes, and whether the tools we use to measure trust can themselves be trusted. My main application area is medical imaging."
+  },
+  "pillars": [
+    {
+      "title": "Calibration and uncertainty",
+      "text": "Checking that a model's confidence matches how often it is right, and that it knows when to abstain."
+    },
+    {
+      "title": "Robustness to distribution shift",
+      "text": "Measuring how models behave when data comes from new sources and conditions."
+    },
+    {
+      "title": "Rigorous evaluation",
+      "text": "Pre-registered, multi-seed studies and leak-free data splits, so reported gains are real."
+    }
+  ],
+  "news": [
+    {
+      "date": "Feb 2026",
+      "text": "Joined St. Joseph International School as IT Officer.",
+      "link": ""
+    },
+    {
+      "date": "Jan 2025",
+      "text": "Our paper on label noise in colorectal cancer classification was published in Applied Computational Intelligence and Soft Computing (Wiley).",
+      "link": "https://doi.org/10.1155/acis/6552580"
+    }
+  ],
+  "research": [
+    {
+      "title": "Auditing Trustworthiness Evaluation in Medical Image Classification",
+      "org": "Independent Research",
+      "period": "Ongoing",
+      "points": [
+        "Pre-registered, multi-seed audit of attention modules across 150 models and seven medical imaging datasets, testing accuracy, calibration and selective prediction.",
+        "Showed that standard post-hoc calibration fails under cross-site acquisition shift, and that slice-level splitting of a widely used CT benchmark inflates accuracy by 17.8 points."
+      ],
+      "tech": "PyTorch, NumPy, Pandas"
+    },
+    {
+      "title": "Research Intern",
+      "org": "Centre for Advanced Machine Learning and Applications (CAMLAs)",
+      "period": "June 2022 – February 2025",
+      "points": [
+        "Co-first author of a Wiley journal paper on label-noise-robust colorectal cancer classification from histopathology images.",
+        "Developed the full pipeline (CNN feature extraction, pLOF-based noise filtering, stacking ensemble) and co-wrote the manuscript."
+      ],
+      "tech": "TensorFlow/Keras, PyTorch, NumPy, Pandas, Scikit-learn"
+    }
+  ],
+  "publications": [
+    {
+      "title": "When the Instruments Agree and Are Wrong: Auditing Trustworthiness Evaluation in Medical Image Classification",
+      "authors": "Md Nazmul Islam",
+      "venue": "Manuscript in preparation",
+      "year": "2026",
+      "doi": "",
+      "note": ""
+    },
+    {
+      "title": "Addressing Label Noise in Colorectal Cancer Classification Using Cross-Entropy Loss and pLOF Methods With Stacking-Ensemble Technique",
+      "authors": "Ishrat Zahan Tani, Kah Ong Michael Goh, Md Nazmul Islam, Md Tarek Aziz, S. M. Hasan Mahmud, Dip Nandi",
+      "venue": "Applied Computational Intelligence and Soft Computing, 2025(1), 6552580",
+      "year": "2025",
+      "doi": "10.1155/acis/6552580",
+      "note": "Equal contribution: I. Z. Tani and M. N. Islam"
+    },
+    {
+      "title": "HSV-Driven Light-Weight CNN Architecture: Balancing Computational Complexity and Diagnostic Precision in Cervical Cancer Detection",
+      "authors": "Md Nazmul Islam, Md. Farukuzzaman Faruk, Azmain Yakin Srizon, S. M. Mahedy Hasan, Md. Al Mamun, Md. Ali Hossain, Md. Ariful Islam",
+      "venue": "27th International Conference on Computer and Information Technology (ICCIT), pp. 1182–1187",
+      "year": "2024",
+      "doi": "10.1109/ICCIT64611.2024.11021869",
+      "note": ""
+    },
+    {
+      "title": "Multichannel EEG-Based Motor Movement Classification Using Fusion of 1D-CNN and Attention Mechanism",
+      "authors": "Md. Ariful Islam, Md. Farukuzzaman Faruk, Mohammod Abdul Motin, S. M. Mahedy Hasan, Azmain Yakin Srizon, Md Nazmul Islam",
+      "venue": "27th International Conference on Computer and Information Technology (ICCIT), pp. 933–938",
+      "year": "2024",
+      "doi": "10.1109/ICCIT64611.2024.11022484",
+      "note": ""
+    },
+    {
+      "title": "Leveraging the Robust Capability of Modified Multi-Layer Gated Recurrent Units for Fake News Detection",
+      "authors": "Ishmam Khan, Azmain Yakin Srizon, Md. Farukuzzaman Faruk, Md. Al Mamun, S. M. Mahedy Hasan, Md Nazmul Islam, Md. Rakib Hossain, Md Faruk Hossain",
+      "venue": "6th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT), pp. 986–991",
+      "year": "2024",
+      "doi": "10.1109/ICEEICT62016.2024.10534407",
+      "note": ""
+    },
+    {
+      "title": "A Cutting-Edge Ensemble of Vision Transformer and ResNet101v2 Based Transfer Learning for the Precise Classification of Leukemia Sub-types from Peripheral Blood Smear Images",
+      "authors": "Barsha Roy, Md. Farukuzzaman Faruk, Md Nazmul Islam, Azmain Yakin Srizon, S. M. Mahedy Hasan, Md. Al Mamun, Md. Rakib Hossain, Md Faruk Hossain",
+      "venue": "6th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT), pp. 49–54",
+      "year": "2024",
+      "doi": "10.1109/ICEEICT62016.2024.10534388",
+      "note": ""
+    },
+    {
+      "title": "Enhancing Gastrointestinal Diagnosis: CBAM-Integrated CNN for High-Precision Multi-Class Anatomical Landmark Identification",
+      "authors": "Sirajam Samira, Md. Farukuzzaman Faruk, Md Nazmul Islam, S. M. Mahedy Hasan, Md. Al Mamun, Azmain Yakin Srizon, Md. Rakib Hossain",
+      "venue": "Second International Conference on Emerging Trends in Information Technology and Engineering (ICETITE), pp. 1–6",
+      "year": "2024",
+      "doi": "10.1109/ic-ETITE58242.2024.10493318",
+      "note": ""
+    },
+    {
+      "title": "Spatial Attention-guided Deep Learning for Accurate Kidney Disease Classification in CT Scans",
+      "authors": "Md Nazmul Islam, Md. Al Mamun, Md. Farukuzzaman Faruk, Azmain Yakin Srizon, S. M. Mahedy Hasan, Barsha Roy",
+      "venue": "26th International Conference on Computer and Information Technology (ICCIT), pp. 1–6",
+      "year": "2023",
+      "doi": "10.1109/ICCIT60459.2023.10441347",
+      "note": ""
+    }
+  ],
+  "experience": [
+    {
+      "role": "IT Officer",
+      "org": "St. Joseph International School",
+      "period": "February 2026 – Present",
+      "points": [
+        "Develop and maintain the school's website, online portal, Google Workspace and IT infrastructure.",
+        "Teach Computer Science (Cambridge curriculum), covering both theory and practical programming."
+      ],
+      "tech": "Django, Python, HTML, CSS, JavaScript"
+    },
+    {
+      "role": "Quality Assurance Coder (Freelancer)",
+      "org": "Outlier (Scale AI)",
+      "period": "May 2024 – January 2026",
+      "points": [
+        "Reviewed and corrected LLM-generated code and wrote preference feedback for Reinforcement Learning from Human Feedback (RLHF), improving code-generation quality."
+      ],
+      "tech": "Python, JSON, HTML, CSS, JavaScript"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "school": "Rajshahi University of Engineering and Technology (RUET), Rajshahi, Bangladesh",
+      "period": "2019 – 2025",
+      "points": [
+        "Thesis: Enhancing Kidney Disease Classification Using Spatial Attention Mechanisms in Convolutional Neural Networks (Supervisor: Dr. Md. Al Mamun)",
+        "Focus: Computer Vision, Medical Imaging, Machine Learning"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Breast Cancer Prediction on Histology Image and Tabular Data",
+      "tech": "TensorFlow, NumPy, Pandas, Scikit-learn, Imblearn",
+      "text": "A custom CNN for breast cancer prediction from histopathology images, and a tabular-data model using SMOTE to handle class imbalance.",
+      "link": ""
+    },
+    {
+      "title": "Potato Leaf Disease Classification",
+      "tech": "TensorFlow, NumPy, Pandas, Scikit-learn, FastAPI, Google Cloud",
+      "text": "A CNN that classifies potato leaf diseases, served through a FastAPI web app on Google Cloud.",
+      "link": ""
+    },
+    {
+      "title": "My Books – Personal Book Management",
+      "tech": "Java 25, Spring Boot, H2 Database",
+      "text": "A Spring Boot RESTful backend (Controller–Service–Repository) with full CRUD via Spring Data JPA and an H2 in-memory database. APIs tested with Postman.",
+      "link": ""
+    },
+    {
+      "title": "Line Follower Robot",
+      "tech": "C, Arduino, IR Sensor",
+      "text": "A line follower robot using Arduino and IR sensors to follow a predefined path.",
+      "link": ""
+    }
+  ],
+  "skills": [
+    {
+      "label": "Programming Languages",
+      "items": "Python, C/C++, Java, SQL, HTML, CSS, JavaScript"
+    },
+    {
+      "label": "Machine Learning",
+      "items": "PyTorch, TensorFlow/Keras, NumPy, Pandas, Scikit-learn"
+    },
+    {
+      "label": "Problem Solving",
+      "items": "Solved 200+ problems (Codeforces, LightOJ, CodeChef)"
+    },
+    {
+      "label": "Others",
+      "items": "GCP, DBMS, LaTeX (Overleaf), Flex, Bison, Cisco Packet Tracer"
+    }
+  ],
+  "awards": [
+    {
+      "title": "6th place in GanJam, Intra RUET Programming Contest",
+      "year": "2019"
+    },
+    {
+      "title": "Talent Pool Scholarship, Secondary School Certificate (Dinajpur Education Board)",
+      "year": "2016"
+    },
+    {
+      "title": "Talent Pool Scholarship, Junior School Certificate (Dinajpur Education Board)",
+      "year": "2013"
+    }
+  ],
+  "activities": [
+    {
+      "role": "Joint Secretary",
+      "org": "Public University Students Association Rajibpur (PUSAR), Rajibpur, Kurigram",
+      "period": "2022 – 2023"
+    },
+    {
+      "role": "Member of the organizing committee",
+      "org": "RUET CSE Fest 2022, RUET, Rajshahi",
+      "period": "2022"
+    },
+    {
+      "role": "Co-Founder and Publicity Secretary",
+      "org": "Public University Students Association Rajibpur (PUSAR), Rajibpur, Kurigram",
+      "period": "2019 – 2022"
+    }
+  ]
+}
